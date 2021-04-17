@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: dimgray;
+  width: 100%;
+  height: 75px;
+}
+
+.mv {
+  background-image: url(img/IMG_3629.JPG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box1 {
+  background-image: url(img/DSC_0897.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.box2 {
+  background-image: url(img/DSC_0915.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.box3 {
+  background-image: url(img/IMG_0227.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url(img/IMG_0265.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.box5 {
+  background-image: url(img/IMG_0270.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.box6 {
+  background-image: url(img/IMG_0277.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.box7 {
+  background-image: url(img/IMG_0281.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.box8 {
+  background-image: url(img/IMG_0322.JPG);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
