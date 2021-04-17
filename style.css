@@ -10,78 +10,100 @@ header {
   height: 75px;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+main {
+}
+
 .mv {
   background-image: url(img/IMG_3629.JPG);
   width: 100%;
   height: 500px;
   background-size: cover;
   background-position: center;
+  margin-bottom: 30px;
 }
 
 .main-visual-content {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.box1 {
+.main-visual-text {
+  text-align: center;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(190, 187, 187);
+  margin: 15px;
+}
+
+.box1-image {
   background-image: url(img/DSC_0897.JPG);
-  width: 300px;
   height: 200px;
-  background-size: contain;
+  background-size: cover;
+  margin: 10px;
+  background-position: bottom;
 }
 
-.box2 {
+.box2-image {
   background-image: url(img/DSC_0915.JPG);
-  width: 300px;
   height: 200px;
-  background-size: contain;
+  background-size: cover;
+  margin: 10px;
 }
 
-.box3 {
+.box3-image {
   background-image: url(img/IMG_0227.jpg);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
-.box4 {
+.box4-image {
   background-image: url(img/IMG_0265.JPG);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
-.box5 {
+.box5-image {
   background-image: url(img/IMG_0270.JPG);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
-.box6 {
+.box6-image {
   background-image: url(img/IMG_0277.JPG);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
-.box7 {
+.box7-image {
   background-image: url(img/IMG_0281.JPG);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
-.box8 {
+.box8-image {
   background-image: url(img/IMG_0322.JPG);
-  width: 300px;
   height: 200px;
   background-size: cover;
+  margin: 10px;
 }
 
 footer {
   width: 100%;
   height: 50px;
   background-color: black;
+  margin-top: 20px;
 }
