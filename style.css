@@ -5,16 +5,19 @@
 }
 
 header {
-  background-color: dimgray;
   width: 100%;
   height: 75px;
 }
 
 h1 {
   font-size: 50px;
+  font-family: "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
 main {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .mv {
@@ -27,29 +30,51 @@ main {
 }
 
 .main-visual-content {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  width: 50%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-visual-text {
   text-align: center;
+  color: #f7f7f7;
+  padding-top: 200px;
+}
+
+.blog {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.big-box {
+  margin-right: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Noteworthy;
+  border-bottom: 8px solid #f7f7f7;
+  line-height: 0.6;
+  margin-bottom: 20px;
 }
 
 .box {
   width: 400px;
-  height: 400px;
-  background-color: rgb(190, 187, 187);
-  margin: 15px;
+
+  margin: 0 auto;
+}
+
+.blog-box-text {
+  margin-left: 10px;
+  font-family: Noteworthy;
 }
 
 .box1-image {
-  background-image: url(img/DSC_0897.JPG);
+  background-image: url(img/IMG_0265.JPG);
   height: 200px;
   background-size: cover;
   margin: 10px;
-  background-position: bottom;
 }
 
 .box2-image {
@@ -67,10 +92,11 @@ main {
 }
 
 .box4-image {
-  background-image: url(img/IMG_0265.JPG);
+  background-image: url(img/DSC_0897.JPG);
   height: 200px;
   background-size: cover;
   margin: 10px;
+  background-position: bottom;
 }
 
 .box5-image {
@@ -80,30 +106,81 @@ main {
   margin: 10px;
 }
 
-.box6-image {
-  background-image: url(img/IMG_0277.JPG);
-  height: 200px;
-  background-size: cover;
-  margin: 10px;
+.side-bar {
+  width: 40%;
+  margin: 0 auto;
 }
 
-.box7-image {
+.date-text {
+  text-align: center;
+}
+
+.Latest-news {
+  margin-top: 50px;
+}
+
+.news-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Instagram {
+  margin-top: 50px;
+}
+
+.instagram-box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  padding-left: 45px;
+}
+
+.instagram-img {
+  width: 110px;
+  height: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.instagram-img:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.instagram-img:nth-child(1) {
   background-image: url(img/IMG_0281.JPG);
-  height: 200px;
-  background-size: cover;
-  margin: 10px;
 }
 
-.box8-image {
+.instagram-img:nth-child(2) {
+  background-image: url(img/IMG_0311.JPG);
+}
+
+.instagram-img:nth-child(3) {
   background-image: url(img/IMG_0322.JPG);
-  height: 200px;
-  background-size: cover;
-  margin: 10px;
+}
+
+.instagram-img:nth-child(4) {
+  background-image: url(img/IMG_3634.JPG);
+}
+
+.instagram-img:nth-child(5) {
+  background-image: url(img/IMG_0307.JPG);
+}
+
+.instagram-img:nth-child(6) {
+  background-image: url(img/IMG_3635.JPG);
 }
 
 footer {
   width: 100%;
   height: 50px;
   background-color: black;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.footer-text {
+  margin-top: 10px;
+  text-align: center;
+  color: aliceblue;
 }
